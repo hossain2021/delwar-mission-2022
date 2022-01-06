@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 90%;
+    height: auto;
+}
+.contain-one{
+    display: flex;
+    margin-left: 10px;
+}
+
+.heading{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.heading a{
+    background: orangered;
+    text-decoration: none;
+    padding:12px;
+    border-radius: 5px;
+}
+
+.contain-one div img{
+    max-width: 60%;
+    text-align: right;
+    
+  
+}
+.my-dream{
+    border-left: 3px solid orangered;
+    font-size: 25px;
+   
+}
+.my-dream h1 span{
+    color: tomato;
+}
+.motivate{
+    text-align: center;
+}
+.motivate h1{
+    color: navy;
+}
+.motivate h1 span{
+    color: orange;
+}
+.contain-two{
+    display: flex;
+      /* width: 100%; */
+    }
+.confidence{
+          width: 30%;
+      }
+
+.contain-three{
+    display: flex;
+}
+.image{
+    width: 400px;
+    height: 400px;
+}
+.contain-four{
+    display: flex;
+}
