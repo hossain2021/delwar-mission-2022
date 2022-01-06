@@ -1,64 +1,125 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+
 img{
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
 }
-.contain-one{
+
+.container{
     display: flex;
-    margin-left: 10px;
+    max-width: 90%;
+    margin: 100px auto;
 }
 
-.heading{
-    margin-top: 50px;
-    margin-left: 100px;
+.left{
+    padding-top: 50px;
 }
-.heading a{
-    background: orangered;
+
+h2{
+    font-size: 35px;
+}
+
+span{
+    color: #FF5959;
+}
+
+p{
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.left a{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #FF5959;
+    color: #fff;
     text-decoration: none;
-    padding:12px;
     border-radius: 5px;
 }
 
-.contain-one div img{
-    max-width: 60%;
-    text-align: right;
-    
-  
+.top-heading {
+    font-size: 35px;
+    padding-left: 50px;
+    border-left: 3px solid #FF5959;
 }
-.my-dream{
-    border-left: 3px solid orangered;
-    font-size: 25px;
-   
-}
-.my-dream h1 span{
-    color: tomato;
-}
-.motivate{
+
+.right{
     text-align: center;
 }
-.motivate h1{
-    color: navy;
+
+
+.box{
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    width: 32%;
 }
-.motivate h1 span{
-    color: orange;
+.box img{
+    max-width: 150px;
 }
+.box1{
+    background: #EDF5F6;
+}
+.box2{
+    background: #FFEEEE;
+}
+.box3{
+    background: #FFF4D6;
+}
+
 .contain-two{
     display: flex;
-      /* width: 100%; */
+    flex-direction: row;
+    align-items: space-between;
+     
     }
-.confidence{
-          width: 30%;
-      }
 
-.contain-three{
-    display: flex;
+.motivate h2{
+    text-align: center;
 }
-.image{
-    width: 400px;
-    height: 400px;
-}
-.contain-four{
+.portfolio-inner{
     display: flex;
+    max-width: 90%;
+    margin: 0 auto 30px;
+}
+.portfolio-inner img{
+    max-width: 90%;
+}
+
+.portfolio h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form{
+    text-align: left;
+}
+form input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+form input[type="submit"]{
+    width: 150px;
+    background-color: #FF5959 ;
+    border: 0;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #0B0D17;
+    color: #fff;
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center;
 }
